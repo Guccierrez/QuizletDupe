@@ -1,0 +1,27 @@
+html{
+    background-color: black;
+}
+
+.navButton{
+    list-style-type: none;
+}
+
+ul{
+    display:flex;
+    justify-content: flex-end;
+    background-color: black;
+    padding: 0px 0px 15px 10px;
+}
+
+.logo{
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(0, 183, 255);
+    list-style-type: none;
+    
+}
+
+ul:first-child{
+
+}
