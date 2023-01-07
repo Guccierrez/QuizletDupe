@@ -6,11 +6,11 @@ const Nav = () => {
   return (
     <header>
       <div> 
-        <div className="logo"><li>Quizlet Dupe</li></div>
     <ul>
+        <li className="logo">Quizlet Dupe</li>
      
       <li className="navButton">
-        <a href="/Homepage">
+        <a href="/Home">
           <Button color="blue">
             Home
           </Button>
@@ -33,6 +33,7 @@ const Nav = () => {
     </ul>
     </div>
     </header>
+    
   );
 };
 

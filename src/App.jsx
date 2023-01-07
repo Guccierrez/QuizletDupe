@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Login from "./components/Pages/LoginPages/Login";
-import Home from "./components/Pages/Homepage/Homepage";
+import Home from "./components/Pages/OneSet/Homepage";
 import SingleSet from "./components/Pages/OneSet/SingleSet";
 import Nav from "./components/Nav/Index";
 import "./App.css";
