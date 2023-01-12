@@ -6,11 +6,11 @@ const Nav = () => {
   return (
     <header>
       <div> 
-        <div className="logo"><li>Quizlet Dupe</li></div>
     <ul>
+        <li className="logo">Quizlet Dupe</li>
      
       <li className="navButton">
-        <a href="/Homepage">
+        <a href="/Home">
           <Button color="blue">
             Home
           </Button>
@@ -24,6 +24,13 @@ const Nav = () => {
         </a>
       </li>
       <li className="navButton">
+        <a href="/SingleSet">
+          <Button color="blue">
+           SingleSet
+          </Button>
+        </a>
+      </li>
+      <li className="navButton">
         <a href="/LoginPages">
           <Button color="blue">
             Login/Signup
@@ -33,6 +40,7 @@ const Nav = () => {
     </ul>
     </div>
     </header>
+    
   );
 };
 

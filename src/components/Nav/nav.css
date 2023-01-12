@@ -2,13 +2,14 @@ html{
     background-color: black;
 }
 
-.navButton{
+li{
     list-style-type: none;
 }
 
 ul{
-    display:flex;
-    justify-content: flex-end;
+   display: flex;
+   align-items: center;
+  
     background-color: black;
     padding: 0px 0px 15px 10px;
 }
@@ -21,7 +22,7 @@ ul{
     list-style-type: none;
     
 }
-
-ul:first-child{
-
+.navButton{
+ float: right;
 }
+

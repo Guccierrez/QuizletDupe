@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import Login from "./components/Pages/LoginPages/Login";
-import Home from "./components/Pages/Homepage/Homepage";
-import SingleSet from "./components/Pages/OneSet/SingleSet";
+import Login from "./components/Pages/SingleSet/Login";
+import Home from "./components/Pages/SingleSet/Homepage";
+import SingleSet from "./components/Pages/SingleSet/SingleSet";
+import SingleCard from "./components/Pages/SingleSet/SingleCard"
 import Nav from "./components/Nav/Index";
 import "./App.css";
 
@@ -13,9 +14,10 @@ function App() {
       <div>
         <Nav/>
         <Routes>
-          <Route path="/login" element={<Login />} />
+          <Route path="/loginPages" element={<Login />} />
           <Route path="/home" element={<Home />} />
           <Route path="/singleSet" element={<SingleSet />} />
+          <Route  path="/singleSet/:id" element={<SingleCard />} />
         </Routes>
       </div>
     </Router>
