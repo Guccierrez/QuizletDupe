@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 
-export default function ({question, answer, id}) {
+export default function ({question, answer}) {
   let [visibility, setVisbility] = useState("hidden")
 
   function handleClick() {
@@ -14,8 +14,8 @@ export default function ({question, answer, id}) {
           <h5 className="card-title">Question: {question}</h5>
           <p className="card-text" style={{ visibility:visibility }} >Answer: {answer}</p>
           <button onClick={handleClick}>show answer</button>
-          <Link to={`/singleSet/${id}`}>
-        hello
+          <Link to={`/singleSet/${question}`} >
+        view single card
       </Link>
     </div> 
   );

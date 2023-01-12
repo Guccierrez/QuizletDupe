@@ -24,6 +24,13 @@ const Nav = () => {
         </a>
       </li>
       <li className="navButton">
+        <a href="/SingleSet">
+          <Button color="blue">
+           SingleSet
+          </Button>
+        </a>
+      </li>
+      <li className="navButton">
         <a href="/LoginPages">
           <Button color="blue">
             Login/Signup

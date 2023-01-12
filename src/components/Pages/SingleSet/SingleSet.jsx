@@ -3,6 +3,9 @@ import Home from './Homepage';
 
 export default function SingleSet() {
     const vocabCardArray = [
+        {  id: 0,
+           question: 'What does the "return keyword do"',
+           answer: 'Nodejs allows Javascript code to run outside the browser'},
         {
           id:1,
           question: 'what are the 6 primitive data types?',
@@ -70,9 +73,6 @@ export default function SingleSet() {
       },
       {   id:14,
           question: 'What is node',
-          answer: 'Nodejs allows Javascript code to run outside the browser'},
-       {  id: 15,
-          question: 'What does the "return keyword do"',
           answer: 'Nodejs allows Javascript code to run outside the browser'},
       
       ]
