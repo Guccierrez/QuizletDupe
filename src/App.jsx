@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Login from "./components/Pages/SingleSet/Login";
-import Home from "./components/Pages/SingleSet/Homepage";
-import SingleSet from "./components/Pages/SingleSet/SingleSet";
-import SingleCard from "./components/Pages/SingleSet/SingleCard"
+import Login from "./components/Pages/Login";
+import Home from "./components/Pages/Home";
+import SingleSet from "./components/Pages/SingleSet";
+import SingleCard from "./components/Pages/SingleCard"
 import Nav from "./components/Nav/Index";
 import "./App.css";
 
@@ -15,8 +15,8 @@ function App() {
         <Nav/>
         <Routes>
           <Route path="/loginPages" element={<Login />} />
-          <Route path="/home" element={<Home />} />
           <Route path="/singleSet" element={<SingleSet />} />
+          <Route  path="/home" element={<Home />} />
           <Route  path="/singleSet/:id" element={<SingleCard />} />
         </Routes>
       </div>

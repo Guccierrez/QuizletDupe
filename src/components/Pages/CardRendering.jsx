@@ -20,6 +20,3 @@ export default function ({question, answer, id}) {
     </div> 
   );
 }
-
-
-

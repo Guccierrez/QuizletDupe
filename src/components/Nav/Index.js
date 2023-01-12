@@ -17,13 +17,6 @@ const Nav = () => {
         </a>
       </li>
       <li className="navButton">
-        <a href="/OneSet">
-          <Button color="blue">
-            Libraries
-          </Button>
-        </a>
-      </li>
-      <li className="navButton">
         <a href="/SingleSet">
           <Button color="blue">
            SingleSet
