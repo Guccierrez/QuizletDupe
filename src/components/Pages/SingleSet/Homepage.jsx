@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 
-export default function ({question, answer}) {
+export default function ({question, answer, id}) {
   let [visibility, setVisbility] = useState("hidden")
 
   function handleClick() {
